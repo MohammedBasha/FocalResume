@@ -1,0 +1,519 @@
+/* Start Main Rules */
+
+.container{
+    width:1170px;
+    margin:auto;
+}
+
+.clearfix{clear:both;}
+
+/* End Main Rules */
+
+/* Start Header */
+
+.header .slider{
+    background-image:url('../images/slider1.jpg');
+    background-size: cover; /* CSS3 */
+    -webkit-background-size: cover; /* CSS3 */
+    -moz-background-size: cover; /* CSS3 */
+    -o-background-size: cover; /* CSS3 */
+    height:1000px;
+    /*background-repeat: no-repeat;*/
+}
+
+.header .slider .intro {
+    /*background-image:url('../images/slider.jpg');*/
+    height:200px;
+    color:#fff;
+    padding-top:500px;
+}
+
+.header .slider .intro h2{
+    margin:0 auto;
+    font-size:50px;
+    width:700px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 5px 0;
+    color:#fff;
+}
+
+.header .slider .intro button{
+    background: none;
+    margin-top:30px;
+    font-size:20px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+}
+
+.header .navbar{
+    background-color:#252F31;
+    color:#fff;
+    overflow:hidden;
+}
+
+.header .navbar h2{color:#FFF;}
+
+.header .navbar h2 span:first-of-type{
+    color:#fff;
+    display: inline-block;
+    background-color: #5F6467;
+    padding: 1px 7px;
+    margin-right: 15px;
+}
+
+.header .navbar h2 span{
+    color:#31E18E;
+}
+
+.header .navbar ul{
+    list-style:none;
+    padding-left:0;
+    overflow:hidden;
+    float:right;
+}
+
+.header .navbar ul li{
+    float:left;
+    padding:10px;
+}
+
+.header .navbar ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.header .navbar ul li.active a, 
+.header .navbar ul li a:hover{
+    color:#2ecc71;
+}
+    
+/* End Header */
+
+/* Start Features */
+
+.features{
+    overflow:hidden;
+    padding-top:40px;
+    padding-bottom:50px;
+}
+
+.features .feat{
+    width:33.33333%;
+    height:150px;
+    background-color:;
+}
+
+/* End Features */
+
+/* Start About me */
+
+.about-me{
+    background-color:#F2F2F2;
+    overflow:hidden;
+    background-image:url(../images/about_me.jpg);
+    background-repeat:no-repeat;
+    background-size:41.45%;
+}
+
+.about-me .image{
+    width:40%;
+    visibility: hidden;
+}
+
+.about-me .image img{
+    width:100%;
+}
+
+.about-me .info{
+    width:56%;
+    padding: 0 2%;
+}
+
+.about-me .info h2{
+    margin: 46px 0 20px 40px;
+}
+
+.about-me .info > p{
+    margin: 0 0 10px 40px;
+}
+
+.about-me .info > p:last-of-type{
+    margin-top: 30px;
+}
+
+.about-me .info .hobbies{
+    overflow:hidden;
+    margin:40px 0 0 40px;
+}
+
+.about-me .info .hobbies .content{
+    width:50%;
+    overflow:hidden;
+}
+
+.about-me .info .hobbies .content .icon{
+    width:10%;
+    margin-right: 5%;
+}
+
+.about-me .info .hobbies .content .icon img{
+    max-width:100%;
+    margin: 22px 10px 0 0;
+}
+
+.about-me .info .hobbies .content .text{
+    width:78%;
+    margin:0 5% 0 2%;
+}
+
+.about-me .info .hobbies .content .text h3{margin-bottom:12px;}
+
+.about-me .info .hobbies .content .text p{margin-top:0;}
+
+/* End About me */
+
+/* Start My Skills */
+
+.my-skills{
+    padding-top:30px;
+    padding-bottom:80px;
+    overflow:hidden;
+}
+
+.my-skills .skills h2{
+    margin: 46px 0 20px 40px;
+}
+
+.my-skills .skills p{
+    margin: 0 0 10px 40px;
+}
+
+.my-skills .skills p:last-of-type{
+    margin-top: 30px;
+}
+
+.my-skills .skills button{
+    margin: 20px 0 0 40px;
+}
+
+.my-skills .progress{
+    width:50%;
+    margin-top: 20px;
+}
+
+.my-skills .skills{
+    width:50%;
+}
+
+.my-skills .progress .technique{
+    margin-left:50px;
+}
+
+.my-skills .progress .technique h3{
+    margin-top:46px;
+}
+
+.my-skills .progress .technique div{
+    background-color:#F3F3F3;
+    height:25px;
+}
+
+.my-skills .progress .technique div span{
+    background-color:#2DCC70;
+    height:25px;
+    display: block;
+    line-height:25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* End MySkills */
+
+/* Start Resume */
+
+.resume{
+    background-color:#F2F2F2;
+    padding-top:50px;
+    padding-bottom:70px;
+}
+
+.resume button{
+    margin-top:25px;
+}
+
+.resume p{
+    padding:0 120px;
+}
+
+/* End Resume */
+
+/* Start My Education */
+
+.my-education{
+    padding-top:30px;
+    padding-bottom:40px;
+    overflow:hidden;
+}
+
+.my-education hr{
+    margin:20px 0;
+    background-color:#a6a6a6;
+    height:1px;
+    border:0;
+    padding:0px;
+}
+
+.my-education .main{
+    width:50%;
+    margin-right:5%;
+}
+
+.my-education .main h2{
+    margin: 46px 0 20px 40px;
+}
+
+.my-education .main p{
+    margin: 0 0 10px 40px;
+}
+
+.my-education .main p:last-of-type{
+    margin-top: 30px;
+}
+
+.my-education .exp{
+    width:45%;
+    float:left;
+}
+
+.my-education .exp h3{
+    margin-top:94px;
+    margin-bottom:10px;
+}
+
+.my-education .exp span{
+    display:block;
+    margin-bottom:10px;
+}
+
+.my-education .exp span:first-of-type{
+    color:#A6A6A6;
+}
+
+.my-education .exp span:last-of-type{
+    background-color:#2DCC70;
+    color:#fff;
+    display:inline-block;
+    padding: 4px 10px;
+}
+
+.my-education .exp .certificate{
+    overflow:hidden;
+}
+
+/* End My Education */
+
+/* Start Testimonials */
+
+.testimonials{
+    background-color:#F2F2F2;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.testimonials q{
+    color:#A6A6A6;
+    font: italic bold 18px/1.8 arial, tahoma;
+    display:block;
+    padding: 0 100px;
+}
+
+.testimonials h3{
+    margin-top:25px;
+    margin-bottom: 40px;
+}
+
+.testimonials ul{
+    list-style:none;
+    padding-left:0;
+}
+
+.testimonials ul li{
+    width:10px;
+    height:10px;
+    border: 2px solid #2DCC70;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.testimonials ul li.active, .testimonials ul li:hover{
+    background-color: #2DCC70;
+}
+
+/* End Testimonials */
+
+
+/* Start Portfolio */
+
+.portfolio{
+    padding-top:50px;
+    padding-bottom:70px;
+}
+
+.portfolio .our-work{
+    overflow:hidden;
+}
+
+.portfolio h2{
+    margin-bottom: 30px;
+}
+
+.portfolio p{
+    margin: 40px 120px 50px;
+}
+
+.portfolio .our-work > div{
+    float:left;
+    width:33.333333%;
+    margin-bottom:10px;
+}
+
+.portfolio .our-work > div img{
+    width:92%;
+    margin:10px;
+    padding: 3px;
+    background-color:#fff;
+    border: 1px solid #A6A6A6;
+}
+
+/* End Portfolio */
+
+/* Start Contact Me */
+
+.contact{
+    background-color:#252F31;
+    overflow:hidden;
+    padding: 50px 0 70px 0;
+}
+
+.contact .info{
+    width:50%;
+    margin-right: 5%;
+}
+
+.contact h2{
+    color:#fff;
+    margin: 0 0 40px 40px;
+}
+
+.contact p{
+    color:#8C9194;
+    margin: 0 0 25px 40px;
+}
+
+.contact table {
+    margin: 40px 0 0 40px ;
+}
+
+.contact table tr td{
+    color:#8C9194;
+}
+
+.contact table tr td strong{
+    color:#DFE4E8;
+    display: inline-block;
+    margin-right: 30px;
+    text-transform: capitalize;
+}
+
+.contact .form{
+    width:45%;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.contact .form label{
+    display: block;
+    color:#DFE4E8;
+    margin:10px 0;
+}
+
+.contact .form input[type="text"], .contact .form textarea{
+    background-color: #4B5557;
+    color:#fff;
+    padding: 10px;
+    border: 0;
+    width: 98%;
+    margin-bottom:10px;
+}
+
+.contact .form input[type="submit"]{
+    background-color: #191E22;
+    color: #FFF;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: 0;
+}
+
+.contact .form textarea{
+    height:300px;
+    resize: none;
+}
+
+/* End Contact Me*/
+
+/* Start Footer */
+
+.footer{
+    background-color:#191E22;
+    color:#6a6e71;
+    padding: 30px 0;
+}
+
+.footer span{font-weight: bold;font-size: 12px;}
+
+.footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+}
+
+.footer ul li img{
+    width: 28px;
+}
+
+/* End Footer */
+
+/* Start your Framework */
+
+.my-button{
+    background:none;
+    border: 3px solid #3FCD83;
+    padding: 10px 30px;
+    color:#3FCD83;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fl-left{float: left;}
+
+.txt-up{text-transform:uppercase;}
+
+p{color:#A6A6A6;line-height: 1.7;}
+
+h2, h3{color:#5B6668;}
+
+.txt-ctr{text-align:center;}
+
+/* End your Framework */
